@@ -1,0 +1,45 @@
+:root {
+    --button-color: #55198b;
+    --button-hover: #8c43ce;
+    --top-button-hover: #000;
+    --title-color: #000000;
+    --text-color: #000000;
+    --sub-title: #868e96;
+    --card-sub-title: #666666;
+    --text-color-dark:#ffffff;
+    --service-Card-Language-Color-BG:#0000ff;
+    --service-Card-Color: rgb(88,96,105);
+    --service-Card-service-Card-Stats-Color: rgb(106, 115, 125);
+    --service-Card-service-Name-Color: rgb(36, 41, 46);
+    --light-Background1: #fff;
+    --light-Background2: rgb(255, 255, 255);
+    --light-Background3: #f5f2f4;
+    --light-Box-Shadow-Dark: rgba(0, 0, 0, 0.2);
+    --experience-Card-Blurred-Div-LG: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)
+    );
+    --experience-Card-Banner-LG: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+    );
+    --progress-Bar-Background: rgb(243, 239, 239);
+    --light-Border1: rgba(211, 211, 211, 0.397);
+    --header-Hover-BG: #f4f4f41f;
+    --contact-Detail-Hover-TS: #b5b5b5;
+    --icon-Background: #333;
+    --app-Header-BG: #282c34;
+    --skills-Color: #645beb;
+    --app-Link: #09d3ac;
+
+    --faceBook: #3b5998;
+    --linkedin: #0e76a8;
+    --github: #333;
+    --gitlab: #fca326;
+    --google: #ea4335;
+    --twitter: #1da1f2;
+    --medium: #000;
+    --stackoverflow: #f48024;
+    --instagram: #c13584;
+    --kaggle: #20beff;
+}

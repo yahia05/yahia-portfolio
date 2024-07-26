@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import structuredData from './structuredData.json';
+import Header from "./Components/Header";
+import Greeting from "./Containers/Greeting";
+import Skills from "./Containers/Skills";
+import WorkExperience from "./Containers/WorkExperience";
+import Footer from "./Components/Footer";
+import Contact from "./Containers/Contact";
+import SiteWeb from './Containers/SiteWeb';
+import Services from './Containers/Services';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <HelmetProvider>
+            <Helmet>
+                <script type="application/ld+json">
+                    {JSON.stringify(structuredData)}
+                </script>
+            </Helmet>
+            <Header />
+            <Greeting />
+            <Skills />
+            <WorkExperience />
+            <SiteWeb />
+            <Services />
+            <Contact />
+            <Footer />
+        </HelmetProvider>
+    );
 }
-
-export default App;

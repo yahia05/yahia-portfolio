@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Yahia's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+A simple portfolio built with ReactJS.
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
+```
+📦public
+ ┣ 📜favicon.ico
+ ┣ 📜favicon.png
+ ┣ 📜index.html
+ ┣ 📜manifest.json
+ ┣ 📜robots.txt
+ ┗ 📜sitemap.xml
+📦src
+ ┣ 📂Components
+ ┃ ┣ 📜ExperienceCard.jsx
+ ┃ ┣ 📜Footer.jsx
+ ┃ ┣ 📜Header.jsx
+ ┃ ┣ 📜Popup.jsx
+ ┃ ┣ 📜SocialMedia.jsx
+ ┃ ┗ 📜SoftwareSkill.jsx
+ ┣ 📂Containers
+ ┃ ┣ 📜Contact.jsx
+ ┃ ┣ 📜Greeting.jsx
+ ┃ ┣ 📜Services.jsx
+ ┃ ┣ 📜SiteWeb.jsx
+ ┃ ┣ 📜Skills.jsx
+ ┃ ┣ 📜Test.jsx
+ ┃ ┗ 📜WorkExperience.jsx
+ ┣ 📂CSS
+ ┃ ┣ 📜Contact.css
+ ┃ ┣ 📜ExperienceCard.css
+ ┃ ┣ 📜Footer.css
+ ┃ ┣ 📜Greeting.css
+ ┃ ┣ 📜Header.css
+ ┃ ┣ 📜Popup.css
+ ┃ ┣ 📜Services.css
+ ┃ ┣ 📜SiteWeb.css
+ ┃ ┣ 📜Skills.css
+ ┃ ┣ 📜SocialMedia.css
+ ┃ ┣ 📜SoftwareSkill.css
+ ┃ ┣ 📜Test.css
+ ┃ ┗ 📜WorkExperience.css
+ ┣ 📜App.css
+ ┣ 📜App.js
+ ┣ 📜App.test.js
+ ┣ 📜GlobalColor.css
+ ┣ 📜index.css
+ ┣ 📜index.js
+ ┣ 📜Portfolio.js
+ ┣ 📜reportWebVitals.js
+ ┣ 📜setupTests.js
+ ┗ 📜structuredData.json
+📜.editorconfig
+📜.gitignore
+📜package-lock.json
+📜package.json
+📜README.md
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this project locally, follow these steps:
 
-### `npm test`
+1. **Clone the repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```
+    git clone https://github.com/feitan05/yahia-portfolio.git
+    cd yahia-portfolio
+    ```
 
-### `npm run build`
+2. **Install dependencies:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server:**
+    ```
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+After starting the development server, open your browser and navigate to `http://localhost:3000` to view your portfolio.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you wish to contribute, please fork the repository and use a feature branch. Pull requests are welcome.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any inquiries, please contact me at [yahia.dev.01@gmail.com](mailto:yahia.dev.01@gmail.com).

@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/Skills.css";
 import SoftwareSkill from "../Components/SoftwareSkill";
-import {  skillsSection } from "../Portfolio";
+import { skillsSection } from "../Portfolio";
 import { Fade } from "react-awesome-reveal";
 
 export default function Skills() {
@@ -9,8 +9,8 @@ export default function Skills() {
         return null;
     }
     return (
-        <div className="main" >
-            <div className="skills-main-div">
+        <div className="main">
+            <div className="skills-main-div" id="skills">
                 <Fade right duration={1000}>
                     <div className="skills-text-div">
                         <h1 className="skills-heading">

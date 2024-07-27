@@ -23,8 +23,8 @@ const greeting = {
             "A passionate Web Developer 🚀 having an experience of building Web Sites with Laravel / Reactjs / and some other cool libraries."
         )
     ,
-    resumeLink: "https://drive.google.com", // Set to empty to hide the button
-    appointmentLink:"https://calendly.com/yahia-dev-01/dev-consulting",
+    resumeLink: "https://drive.google.com/file/d/1V7EK2Nnn7vcnxXDs0uaEj_SZPEboVc_V",
+    appointmentLink: "https://calendly.com/yahia-dev-01/dev-consulting",
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -136,7 +136,7 @@ const workExperiences = {
             responsibilities: "Collaborated within a team to design and develop both frontend interfaces and backend functionality. Utilized PHP, JavaScript, and MySQL to manage data exchange and ensure seamless functionality of the website.",
             tech: "PHP, HTML, CSS, JavaScript, MySQL, PHPMyAdmin, Apache, VS Code.",
             achievements: "Successfully completed the project under the guidance of the internship supervisor, ensuring all deliverables met the project requirements and deadlines.",
-            title:"ISWY Consulting"
+            title: "ISWY Consulting"
             // descBullets: [
             //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -151,7 +151,7 @@ const workExperiences = {
             responsibilities: " My responsibilities included designing and developing websites using PHP, Laravel, WordPress, WooCommerce, JavaScript, and MySQL. I implemented frontend interfaces and backend functionalities aligned with client requirements, ensuring seamless integration and optimal performance.",
             tech: "PHP, Laravel, HTML, CSS, Bootstarp, JavaScript, MySQL, PHPMyAdmin, Apache, VS Code, WordPress, WooCommerce, Hostinger.",
             achievements: "Successfully completed both projects according to clients specifications and expectations, ensuring robust functionality and user-friendly interfaces. Accomplished all project goals as per clients requests.",
-            title:"CoorDiv"
+            title: "CoorDiv"
         },
         {
             role: "Web Developer",
@@ -162,7 +162,7 @@ const workExperiences = {
             responsibilities: "My responsibilities included designing and developing websites from concept to completion, ensuring functionality, usability, and visual appeal. I collaborated closely with clients to understand their needs and preferences, translating them into effective web solutions.",
             tech: "I utilized a diverse range of technologies including WordPress, WooCommerce, PHP, JavaScript, MySQL, VS Code, Hostinger, and phpMyAdmin to implement frontend and backend functionalities according to project requirements.",
             achievements: "Throughout my tenure, I successfully delivered numerous projects that met client objectives and received positive feedback. I consistently maintained high standards of code quality, adhered to best practices, and contributed to the overall success of each project by ensuring timely delivery and client satisfaction.",
-            title:"Khayalcom"
+            title: "Khayalcom"
         },
         {
             role: "Web Developer",
@@ -173,7 +173,7 @@ const workExperiences = {
             responsibilities: "My responsibilities remained focused on designing and developing custom websites that met client specifications and optimized user experience. I collaborated closely with clients and internal teams to ensure seamless project execution from conception to deployment.",
             tech: "I leveraged a comprehensive set of technologies, including WordPress, WooCommerce, PHP, JavaScript, MySQL, VS Code, Hoostinger, IONOS, O2switch and phpMyAdmin. These tools enabled me to implement both frontend and backend functionalities effectively.",
             achievements: " During my tenure at Invest'M Consulting, I successfully delivered a higher volume of projects while maintaining high standards of quality and client satisfaction. I demonstrated strong problem-solving skills and adaptability in managing multiple projects simultaneously.",
-            title:"Invest'M Consulting"
+            title: "Invest'M Consulting"
         }
     ]
 };

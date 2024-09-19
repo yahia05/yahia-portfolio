@@ -95,3 +95,54 @@
         text-align: center;
     }
 }
+
+
+
+.custom-modal .modal-dialog {
+    display: flex;
+    max-height: 80vh;
+    /* Adjust as needed */
+}
+
+.custom-modal .modal-content {
+    display: flex;
+    height: 100%;
+}
+
+.modal-content-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.modal-image-section {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    /* Light background for images */
+    padding: 10px;
+}
+
+.modal-details-section {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ffffff;
+    /* White background for details */
+    padding: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .modal-content-wrapper {
+        flex-direction: column; /* Stack items vertically */
+    }
+    
+    .modal-image-section,
+    .modal-details-section {
+        flex: none; /* Remove flex-grow to prevent sections from expanding */
+    }
+}

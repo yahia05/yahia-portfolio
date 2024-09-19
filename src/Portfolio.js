@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "I am a web full stack developer with a passion for exploring diverse technology stacks. My expertise spans across:",
+    subTitle: "I am a web developer with a passion for exploring diverse technology stacks. My expertise spans across:",
     skills: [
         emoji(
             "☄️ Building responsive website front end using ReactJS"
@@ -187,146 +187,99 @@ const bigProjects = {
         {
             image: require("./assets/images/companies/9era.online.png"),
             projectName: "9era Online",
-            projectDesc: "A web application for IT courses and Tech events.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            projectDesc: "E-learning web application for IT courses and Tech events.",
+            screenshot: require("./assets/images/siteweb/9era-Online.png"),
+            tech: "HTML, CSS, Bootstrap, JavaScript, Laravel, MySQL, Git",
+            lgDesc: "9era.online is an innovative platform designed to curate and present high-quality video content from YouTube, specifically tailored for students in the IT department. Utilizing HTML, CSS, Bootstrap, JavaScript, Laravel, MySQL, and Git, the website features a user-friendly interface with essential functionalities, including a secure login and signup system, a comprehensive courses page with detailed descriptions and videos, and a dedicated section for the latest IT events. This project aims to enhance learning by providing easy access to valuable resources across various development domains."
         },
         {
             image: require("./assets/images/companies/knctec.png"),
             projectName: "KNC TECH",
             projectDesc: "E-commerce website that sells equipment and supplies for the printing industry.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            screenshot: require("./assets/images/siteweb/Home-KNC-Tech.png"),
+            tech: "Wordpress, Woocommerce, Elementor",
+            lgDesc: "KNC TECH is dedicated to providing top-quality equipment and supplies for the printing industry. Built using WordPress, WooCommerce, and Elementor, the site offers seamless functionality, including two order types: customers can either place orders directly through the website or easily initiate a WhatsApp order with a single click that populates product details automatically. Additionally, various payment methods are integrated to accommodate customer preferences. The website also features a dedicated page for requesting quotes, catering primarily to companies in need of heavy printing materials, and ensuring a user-friendly experience for all buyers."
         },
         {
             image: require("./assets/images/companies/js.png"),
             projectName: "June Studio 3D",
             projectDesc: "An online platform specializing in Photogrammetry solutions: 3D scanning, real-time architectural visualization.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            screenshot: require("./assets/images/siteweb/JuneStudio-–-Photogrammétrie-–-Scan-3D-Maroc.png"),
+            screenshot2: require("./assets/images/siteweb/Services-–-JuneStudio.png"),
+            tech: "Wordpress, Elementor, Archub",
+            lgDesc: "June Studio 3D showcases the company’s expertise in 3D photogrammetry, product digitization, and immersive visualization of monuments and people. Built with WordPress, Elementor, and Archub, the site features an eye-catching homepage slider, a fully moderated appointment booking system, and dedicated pages detailing the services and showcasing completed projects. Additionally, a blog page offers valuable insights, while a contact page facilitates easy communication for both companies and individuals seeking there innovative solutions."
         },
         {
             image: require("./assets/images/companies/drone-sol.png"),
             projectName: "Drone Solutions 31",
             projectDesc: "An online platform that offers drone-based inspection and cleaning services.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            screenshot: require("./assets/images/siteweb/Inspection-et-nettoyage-par-drone-Occitanie-Drone-Solutions-31 (1).png"),
+            tech: "Wordpress, Elementor",
+            lgDesc: "Drone Solutions 31 offers innovative drone-based inspection and cleaning services for both companies and individuals. Built with WordPress and Elementor, the site features an attractive homepage slider, dedicated pages presenting detailed service offerings and showcasing completed projects. A blog page provides insights into industry trends, while a contact page facilitates easy communication. Additionally, a convenient button allows users to book appointments directly through Calendly, ensuring a seamless experience for clients seeking efficient and high-quality drone services."
         },
         {
             image: require("./assets/images/companies/khayalcom.png"),
             projectName: "Khayalcom",
             projectDesc: "A website to showcase their communication agency, emphasizing their expertise in web and print services.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            screenshot: require("./assets/images/siteweb/Agence-de-communication-Web-et-print-à-Casablanca-.png"),
+            tech: "Wordpress, Elementor",
+            lgDesc: "This website serves as a dynamic showcase for the communication agency Khayalcom, highlighting services in Printing and Digital Marketing. Crafted with WordPress and Elementor, the site features an eye-catching slider that captivates visitors from the start. Users can explore comprehensive service descriptions, view a portfolio of successful projects, and engage with a blog that shares industry insights. A standout feature is the interactive catalog page, allowing users to flip through a digital representation of printed products and marketing services. The contact page ensures seamless communication for both businesses and individuals seeking professional solutions."
         },
         {
             image: require("./assets/images/companies/delta.png"),
             projectName: "Delta Diagnostics",
             projectDesc: "A showcase website presenting real estate diagnostic services.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            screenshot: require("./assets/images/siteweb/Delta-diagnostic-Diagnostic-immobilier.png"),
+            tech: "Wordpress, Divi",
+            lgDesc: "This showcase website presents a comprehensive overview of real estate diagnostic services tailored for both companies and individuals. Built with WordPress and Divi, the site features a visually appealing landing page that highlights the diagnostic services offered, along with a showcase of partner companies. Contact information is conveniently placed in the footer for easy access. The design prioritizes clarity and professionalism, ensuring that visitors can quickly understand the services and reach out for inquiries."
         },
         {
             image: require("./assets/images/companies/moncaf.png"),
             projectName: "Mon Caftan",
-            projectDesc: "An e-commerce website specializing in selling Moroccan traditional clothing.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
-        },
-        {
-            image: require("./assets/images/companies/webbuzz.png"),
-            projectName: "WebBuzz",
-            projectDesc: "A website to showcase their Web et Marketing Digital agency.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            projectDesc: "An e-commerce website specialized in selling Moroccan traditional clothing.",
+            screenshot: require("./assets/images/siteweb/Accueil-moncaftan.png"),
+            tech: "Wordpress, Woocommerce, Elementor",
+            lgDesc: "This e-commerce platform focuses on offering a range of traditional Moroccan women’s clothing. Developed using WordPress, WooCommerce, and Elementor, it includes an eye-catching slider and a custom login/sign-in page based on client specifications. The site features detailed product descriptions organized by categories, as well as dedicated pages for contact and a blog. Additionally, various payment methods are integrated to accommodate customer preferences."
         },
         {
             image: require("./assets/images/companies/investm.png"),
             projectName: "Invest'M",
-            projectDesc: "A website showcasing their services in Financial Consulting, Business Management, Administrative Management, and Digital Communication.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            projectDesc: "A website showcasing their services in Financial Consulting, Business Management, Administrative Management, and Digital Marketing.",
+            screenshot: require("./assets/images/siteweb/Investir-au-Maroc-en-Toute-Confiance-avec-invest-M-Consulting (1).png"),
+            tech: "Wordpress, Elementor",
+            lgDesc: "This website showcases services in financial consulting, business management, administrative management, and digital marketing. Built with WordPress and Elementor, it features an attractive slider and dedicated pages detailing each service, along with a portfolio of completed projects and notable clients. A blog page offers insights into industry trends, and a contact page facilitates communication with both companies and individuals seeking professional guidance."
         },
         {
-            image: require("./assets/images/companies/vkarte.png"),
-            projectName: "VKarte",
-            projectDesc: "A website that showcases NFC card printing services and also functions as an e-commerce platform for selling custom-printed NFC cards.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            image: require("./assets/images/companies/Artboard-2-copy.webp"),
+            projectName: "Red Wear",
+            projectDesc: "An e-commerce website specialized in selling Jeans for Women.",
+            screenshot: require("./assets/images/siteweb/RED-WEAR.png"),
+            tech: "Wordpress, Woocommerce, Elementor",
+            lgDesc: "This e-commerce platform focuses on offering a range of women’s clothing. Developed using WordPress, WooCommerce, and Elementor, it includes an eye-catching slider. The site features detailed product descriptions organized by categories, as well as dedicated pages for contact and a blog. Additionally, various payment methods are integrated to accommodate customer preferences."
         },
+        // {
+        //     image: require("./assets/images/companies/vkarte.png"),
+        //     projectName: "VKarte",
+        //     projectDesc: "A website that showcases NFC card printing services and also functions as an e-commerce platform for selling custom-printed NFC cards.",
+        //     screenshot: require("./assets/images/siteweb/9era-Online.png"),
+        //     tech: "Wordpress, Woocommerce, Elementor",
+        //     lgDesc: "A web application for IT courses and Tech events."
+        // },
         {
             image: require("./assets/images/companies/MarocCaf.png"),
             projectName: "MaroCaftan",
             projectDesc: "A marketplace featuring multiple vendors specializing in the sale of Moroccan traditional clothing.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            screenshot: require("./assets/images/siteweb/Maroc-Caftan.png"),
+            tech: "Wordpress, Woocommerce, Dokan, Elementor",
+            lgDesc: "MaroCaftan marketplace features multiple vendors specializing in the sale of Moroccan traditional clothing. Developed using WordPress, WooCommerce, Dokan, and Elementor, the site includes an attractive slider and a comprehensive dashboard for sellers, providing all necessary functionalities. Each seller has a dedicated profile and store, with product organization based on categories and stores. The platform supports multiple payment methods and includes a blog and contact pages for user engagement. Additionally, a support bot is integrated for quick assistance, enhancing the overall shopping experience."
         },
         {
             image: require("./assets/images/companies/reve.png"),
             projectName: "Rêve D'opale",
             projectDesc: "An e-commerce website specializing in selling men's and women's jewelry.",
-            footerLink: [
-                {
-                    name: "",
-                    url: ""
-                }
-                //  you can add extra buttons here.
-            ]
+            screenshot: require("./assets/images/siteweb/Accueil-Reve-D-opale (1).png"),
+            tech: "Wordpress, Woocommerce, Elementor",
+            lgDesc: "Rêve D'opale focuses on offering a range of men's and women's jewelry. Developed using WordPress, WooCommerce, and Elementor, it includes an eye-catching slider. The site features detailed product descriptions organized by categories, as well as dedicated pages for contact and a blog. Additionally, various payment methods are integrated to accommodate customer preferences."
         }
     ],
     display: true // Set false to hide this section, defaults to true

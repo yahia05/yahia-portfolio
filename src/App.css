@@ -28,3 +28,6 @@
 .subTitle {
     color: var(--sub-Title);
 }
+.modal-backdrop {
+    background-color: rgb(0 0 0 / 17%) !important;
+}

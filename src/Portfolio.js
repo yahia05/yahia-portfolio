@@ -257,14 +257,14 @@ const bigProjects = {
             tech: "Wordpress, Woocommerce, Elementor",
             lgDesc: "This e-commerce platform focuses on offering a range of women’s clothing. Developed using WordPress, WooCommerce, and Elementor, it includes an eye-catching slider. The site features detailed product descriptions organized by categories, as well as dedicated pages for contact and a blog. Additionally, various payment methods are integrated to accommodate customer preferences."
         },
-        // {
-        //     image: require("./assets/images/companies/vkarte.png"),
-        //     projectName: "VKarte",
-        //     projectDesc: "A website that showcases NFC card printing services and also functions as an e-commerce platform for selling custom-printed NFC cards.",
-        //     screenshot: require("./assets/images/siteweb/9era-Online.png"),
-        //     tech: "Wordpress, Woocommerce, Elementor",
-        //     lgDesc: "A web application for IT courses and Tech events."
-        // },
+        {
+            image: require("./assets/images/companies/vkarte.png"),
+            projectName: "VKarte",
+            projectDesc: "A website that showcases NFC card printing services and also functions as an e-commerce platform for selling custom-printed NFC cards.",
+            screenshot: require("./assets/images/siteweb/Carte-Visite-NFC-Optimisez-Votre-Réseau-Professionnel.png"),
+            tech: "Wordpress, Woocommerce, Elementor",
+            lgDesc: "VKARTE is a dynamic website that showcases NFC card printing services and functions as a comprehensive e-commerce platform for custom-printed NFC cards. Designed using WordPress, WooCommerce, and Elementor, the site features an engaging home slider that highlights key services and promotions. Users can explore detailed product pages that provide in-depth information about each card, making the purchasing process straightforward and informative. A dedicated section educates visitors on how NFC technology works and outlines its numerous benefits, helping customers understand its value. Additionally, VKARTE includes a customized area specifically for businesses looking to leverage NFC solutions, with tailored content that addresses their unique needs. Users can easily request demos and quotes through intuitive forms, enhancing the overall user experience. The site also features a contact page for inquiries and a blog section to share insights, updates, and tips related to NFC technology. I developed the entire website, focusing on creating a cohesive and user-friendly interface that caters to both individual consumers and corporate clients."
+        },
         {
             image: require("./assets/images/companies/MarocCaf.png"),
             projectName: "MaroCaftan",

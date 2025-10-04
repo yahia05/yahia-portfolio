@@ -23,7 +23,7 @@ const greeting = {
             "A passionate Web Developer 🚀 having an experience of building Web Sites with Laravel / Reactjs / and some other cool libraries."
         )
     ,
-    resumeLink: "https://drive.google.com/file/d/1pvxl-DDM4GJG3GjcqewjZZh4YxlwyBvC/view?usp=drive_link",
+    resumeLink: "https://drive.google.com/file/d/1LFvb9FlOx9uJZGeiGvyZx6kXvcJyq3E4/view?usp=drive_link",
     appointmentLink: "https://calendly.com/yahia-dev-01/dev-consulting",
     displayGreeting: true // Set false to hide this section, defaults to true
 };
